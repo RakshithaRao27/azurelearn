@@ -1,0 +1,9 @@
+{
+	"name": "rakhiraodf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "90d86ae3-c7f6-4928-a3a3-eb011b224e8c",
+		"tenantId": "2947314b-a9fa-4070-8465-ee2fa92ac999"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"name": "AzureBlobStorageDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "nov.json",
+				"folderPath": "archive",
+				"container": "raotestcontainer"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
